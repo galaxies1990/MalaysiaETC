@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--连接界面-->
+    <LinearLayout
+        android:id="@+id/ll_connect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_etc_device_big"
+            android:layout_marginTop="@dimen/space_50"
+            />
+        <TextView
+            android:id="@+id/tv_connection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etc_connection"
+            android:padding="@dimen/space_10"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/font_18"
+            android:textColor="@color/darkgray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etc_tip"
+            android:textSize="@dimen/font_14"
+            android:padding="@dimen/space_10"
+            android:gravity="center"
+            android:textColor="@color/darkgray"/>
+    </LinearLayout>
+    <!--充值界面-->
+    <ScrollView
+        android:id="@+id/sv_charge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/ll_ble_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_gray"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_my_device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/iv_flag"
+                    android:text="abc的fgh"
+                    android:textColor="@color/light_blue"
+                    android:textSize="@dimen/font_16" />
+
+                <ImageView
+                    android:id="@+id/iv_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:src="@mipmap/icon_page_balance_conn" />
+
+                <TextView
+                    android:id="@+id/tv_ble_device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_flag"
+                    android:text="device"
+                    android:textColor="@color/light_blue"
+                    android:textSize="@dimen/font_16" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_1"
+                android:background="@color/bg_darkgray"
+                />
+            <RadioGroup
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_marginBottom="@dimen/space_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:layout_width="@dimen/space_1"
+                    android:layout_height="@dimen/space_1"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:id="@+id/rb_pay"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etc_pay"
+                    android:checked="true"
+                    android:drawableTop="@drawable/bg_etc_step1_selector"
+                    android:drawablePadding="@dimen/space_5"
+                    android:textSize="@dimen/font_14"
+                    android:gravity="center_horizontal"
+                    android:textColor="@drawable/text_color_gray_green_selector"/>
+                <View
+                    android:layout_width="@dimen/space_1"
+                    android:layout_height="@dimen/space_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_dotted_line"
+                    android:layout_marginBottom="@dimen/space_10"
+                    android:layerType="software"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_load"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etc_load"
+                    android:drawableTop="@drawable/bg_etc_step2_selector"
+                    android:drawablePadding="@dimen/space_5"
+                    android:textSize="@dimen/font_14"
+                    android:gravity="center_horizontal"
+                    android:textColor="@drawable/text_color_gray_green_selector"/>
+                <View
+                    android:layout_width="@dimen/space_1"
+                    android:layout_height="@dimen/space_5"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_dotted_line"
+                    android:layout_marginBottom="@dimen/space_10"
+                    android:layerType="software"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_complete"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/etc_complete"
+                    android:drawableTop="@drawable/bg_etc_step3_selector"
+                    android:drawablePadding="@dimen/space_5"
+                    android:textSize="@dimen/font_14"
+                    android:gravity="center_horizontal"
+                    android:textColor="@drawable/text_color_gray_green_selector"/>
+                <View
+                    android:layout_width="@dimen/space_1"
+                    android:layout_height="@dimen/space_1"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+            <FrameLayout
+                android:id="@+id/fl_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

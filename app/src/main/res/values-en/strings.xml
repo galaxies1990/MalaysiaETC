@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">E-LOAD</string>
+
+    <string name="change_app_language">Change app language?</string>
+    <string name="language_zh">Chinese</string>
+    <string name="language_en">English</string>
+    <string name="language_ms">Bahasa Melayu</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="hint">Reminder</string>
+    <string name="text_confirm">Confirm</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="switch_to_chinese_version">Change to Chinese version?</string>
+    <string name="switch_to_english_version">Change to English version?</string>
+    <string name="switch_to_malaysia_version">Change to Bahasa Melayu version?</string>
+
+    <string name="etc_charge">Account Reload</string>
+    <string name="etc_query">Check Bill</string>
+
+    <string name="etc_my_device">My Device</string>
+    <string name="etc_recharge_record">Reload Records</string>
+    <string name="etc_consumer_record">Transaction Records</string>
+
+    <string name="etc_business_introduction">Services</string>
+    <string name="etc_user_guide">User Guide</string>
+    <string name="etc_setting">Setting</string>
+    <string name="etc_customer_service">Support</string>
+
+
+</resources>

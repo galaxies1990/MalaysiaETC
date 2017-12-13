@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_etc_card_scan"
+        android:layout_marginTop="@dimen/space_50"
+        />
+    <TextView
+        android:id="@+id/tv_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etc_scaning"
+        android:padding="@dimen/space_10"
+        android:layout_marginTop="@dimen/space_40"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_16"
+        android:textColor="@color/darkgray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etc_scan"
+        android:padding="@dimen/space_10"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_16"
+        android:textColor="@color/darkgray"/>
+
+    <!--连接失败-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <!--蓝牙盒子列表-->
+    <RelativeLayout
+        android:id="@+id/rl_ble_scan_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/lv_ble_scan"
+            android:layout_width="match_parent"
+            android:background="@color/bg_gray"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/tv_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lv_ble_scan"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/space_10"
+            android:text="@string/select_device"
+            android:textColor="@color/darkgray"
+            android:textSize="@dimen/font_14" />
+    </RelativeLayout>
+
+</LinearLayout>

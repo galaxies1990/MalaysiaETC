@@ -1,0 +1,4 @@
+include ':app'
+include ':UroadLibAs'
+project(':UroadLibAs').projectDir=new File('..//UroadLibAs')
+include  ':UroadLibAs:uroadlib'

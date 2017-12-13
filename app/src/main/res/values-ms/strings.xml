@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">E-LOAD</string>
+
+    <string name="change_app_language">Tukar bahasa applikasi?</string>
+    <string name="language_zh">Bahasa Cina</string>
+    <string name="language_en">Bahasa Inggeris</string>
+    <string name="language_ms">Bahasa Melayu</string>
+    <string name="yes">Ya</string>
+    <string name="cancel">Batal</string>
+
+    <string name="hint">Peringatan</string>
+    <string name="text_confirm">Sah</string>
+    <string name="text_cancel">Batal</string>
+    <string name="switch_to_chinese_version">Tukar ke versi Bahasa Cina?</string>
+    <string name="switch_to_english_version">Tukar ke versi Bahasa Inggeris?</string>
+    <string name="switch_to_malaysia_version">Tukar ke versi Bahasa Melayu?</string>
+
+    <string name="etc_charge">Tambah Nilai Akaun</string>
+    <string name="etc_query">Pertanyaan Bil</string>
+
+    <string name="etc_my_device">Peranti Saya</string>
+    <string name="etc_recharge_record">Akaun Transaksi</string>
+    <string name="etc_consumer_record">Rekod Transaksi</string>
+
+    <string name="etc_business_introduction">Perkhidmatan</string>
+    <string name="etc_user_guide">Panduan Pengguna</string>
+    <string name="etc_setting">Normal</string>
+    <string name="etc_customer_service">Sokongan</string>
+
+</resources>

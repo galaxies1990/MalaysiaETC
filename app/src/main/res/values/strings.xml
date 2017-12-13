@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">E-LOAD</string>
+
+    <!--首页-->
+    <!--切换语言-->
+    <string name="change_app_language">是否切换语言</string>
+    <string name="language_zh">中文</string>
+    <string name="language_en">英文</string>
+    <string name="language_ms">马来文</string>
+    <string name="yes">是</string>
+    <string name="cancel">否</string>
+
+    <string name="hint">提示</string>
+    <string name="text_confirm">确定</string>
+    <string name="text_cancel">取消</string>
+    <string name="switch_to_chinese_version">是否切换至中文版本</string>
+    <string name="switch_to_english_version">是否切换至英文文版本</string>
+    <string name="switch_to_malaysia_version">是否切换至马来文版本</string>
+
+    <!--功能菜单-->
+    <string name="etc_charge">卡片充值</string>
+    <string name="etc_query">卡片查询</string>
+    <string name="etc_my_device">我的设备</string>
+
+    <string name="etc_recharge_record">充值记录</string>
+    <string name="etc_consumer_record">消费记录</string>
+    <string name="etc_business_introduction">业务介绍</string>
+
+    <string name="etc_user_guide">使用指南</string>
+    <string name="etc_customer_service">客户服务</string>
+    <string name="etc_setting">个人中心</string>
+
+    <!--卡片充值-->
+    <!--蓝牙扫描-->
+    <string name="etc_scan">打开手机蓝牙功能-将卡片插入盒子中读取</string>
+    <string name="etc_scaning">正在扫描...</string>
+    <string name="etc_rescan">扫描已停止，点此重新扫描...</string>
+    <string name="select_device">请选择您的圈存设备</string>
+
+    <!--蓝牙连接-->
+    <string name="etc_connection">正在连接...</string>
+    <string name="etc_tip">请检查您的手机与设备是否连接，并将Touch’n Go卡\n插入设备中，充值写卡过程中，请勿取出卡片，\n建议在Wifi或4G网络下进行写卡充值</string>
+
+    <!--充值步骤-->
+    <string name="etc_pay">支付</string>
+    <string name="etc_load">充值</string>
+    <string name="etc_complete">完成</string>
+
+    <!--充值界面-->
+    <string name="etc_card_balance">卡内余额</string>
+    <string name="etc_card_no">Touch’n Go卡号</string>
+    <string name="etc_device_no">设备号码</string>
+    <string name="etc_device_name">设备名称</string>
+    <string name="etc_card_status">卡片状态</string>
+    <string name="etc_card_status_normal">正常</string>
+    <string name="etc_select_amount">请选择充值金额</string>
+
+
+
+
+
+</resources>
